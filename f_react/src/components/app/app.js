@@ -77,7 +77,7 @@ class App extends Component {
             case 'rise':
                 return items.filter(item => item.rise)
                 break
-            case 'moreThen100':
+            case 'moreThen1000':
                 return items.filter(item => item.salary > 1000)
                 break
             default: 
